@@ -31,6 +31,8 @@ export class CrewComponent implements OnInit {
       this.inCrew = false;
     }
     
+
+    
     if (this.inCrew) {
         let index = this.crew.indexOf(member);
         this.crew.splice(index, 1);
